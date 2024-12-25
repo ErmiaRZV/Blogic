@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGIC</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/myCss.css">
+    <link rel="stylesheet" href="fonts/css/fontello.css ">
+    <link href="https://cdn.prod.website-files.com/64f2d0c81a63000fdaf76932/64f598643efaa4030e5c7299_Favicon.png" rel="shortcut icon" type="image/x-icon"/>
+</head>
+
+<body class=" bg-[#171717] w-[100%] overflow-x-hidden">
+
+
+    <div id="boxMenu" class="w-full h-[100vh] bg-black fixed left-0 top-0 z-30 pt-28 translate-y-[-100vh] duration-1000">
+        <nav class="h-full  flex">
+            <ul
+                class="w-full h-full flex flex-wrap  justify-end items-center  *:text-lg *:text-white *:w-full  *:flex *:items-center *:justify-center ">
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">HOME </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">ABOUT </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">BLOG </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">CATEGORIES </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">AUTHORS </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">SHOP </a>
+                </li>
+                <li class=" ">
+                    <a class="w-full h-full flex justify-center items-center cursor-pointer" href="">CONTACT </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <header class="w-full bg-[#171717] z-50 relative">
+        <div class="w-full h-28  flex flex-wrap bg-[#171717] 2xl:container mx-auto opacity-0 duration-[2s]">
+            <figure class="h-full w-1/2 lg:w-[20%] flex justify-start ps-6 md:ps-10 items-center">
+                <img class="w-28" src="images/logo.png" alt="">
+            </figure>
+            <nav class="h-full w-1/2 lg:w-[80%] flex">
+                <ul
+                    class="w-full h-full flex flex-wrap  justify-end items-center pe-6 md:pe-10 gap-3 md:gap-8 *:text-sm *:text-white">
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">HOME</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">HOME </a>
+                        <span class="ms-4 ">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">ABOUT</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">ABOUT </a>
+                        <span class="ms-4 ">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">BLOG</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">BLOG </a>
+                        <span class="ms-4 ]">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">CATEGORIES</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">CATEGORIES </a>
+                        <span class="ms-4">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">AUTHORS</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">AUTHORS </a>
+                        <span class="ms-4 ">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">SHOP</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">SHOP </a>
+                        <span class="ms-4">.</span>
+                    </li>
+                    <li class="hidden lg:flex relative overflow-hidden group ">
+                        <span
+                            class="absolute left-0 w-full flex justify-start group-hover:top-0 duration-500 top-[100%] text-white text-sm cursor-pointer">CONTACT</span>
+                        <a class="group-hover:translate-y-[-100%] duration-500 cursor-pointer" href="">CONTACT </a>
+                    </li>
+                    <li class="  duration-500 "><a class="p-3 hover:bg-[#ababab] w-fit duration-500 flex rounded-md"
+                            href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="white" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                        </a></li>
+                    <li id="menu" class="lg:hidden cursor-pointer"><span href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke="white" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header /// -->
+    <section id="sect1" class="w-full bg-[#171717] mt-6">
+        <div class="w-full mx-auto 2xl:container scale-150 duration-1000">
+            <div class="w-full flex justify-center">
+                <span class=" text-white bg-[#292929] py-2 px-8 rounded-md uppercase">
+                    Technology
+                </span>
+            </div>
+            <h1 class="text-white text-5xl md:text-7xl md:px-[20%] lg:px-[30%] text-center mt-6">
+                A Transformative Journey
+            </h1>
+            <p class="text-center text-[#a3a3a3] px-12 mt-8 md:px-[20%] lg:px-[30%] md:text-lg">
+                One of the most evident trends in the future of VR is the continued improvement of hardware.
+            </p>
+            <div class="w-full flex justify-center mt-6">
+                <span class="text-white">
+                    May 6, 2024
+                </span>
+            </div>
+            <figure class="w-[80%] mx-auto flex justify-center  h-[500px] mt-16 overflow-hidden rounded-lg">
+                <img class="w-[100%] rounded-md h-full object-cover hover:scale-125 duration-500 cursor-pointer"
+                    src="images/6638be06c5054601ba0b9dc3_ATJ.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <!-- end sect/// -->
+    <section id="sect2" class="w-full bg-[#171717] mt-20 translate-y-[100vh] duration-1000">
+        <div class="w-full flex flex-wrap mx-auto 2xl:container">
+            <div class="w-full flex justify-center">
+                <h2 class="text-white text-5xl lg:text-7xl ">
+                    Latest Posts
+                </h2>
+
+            </div>
+            <div class="w-full flex justify-center mt-8 md:px-12 lg:pe-[40%] lg:mt-20">
+                <p class="text-white text-3xl text-center lg:text-6xl ">
+                    Glimpse into the dynamic landscape of our recent insights & trends.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end sect/// -->
+    <section id="sect3" class="w-full bg-[#171717] mt-32 duration-1000">
+        <div class="w-full mx-auto 2xl:container *:px-6 *:md:px-12 lg:px-20 *:translate-y-[100vh] *:cursor-pointer">
+            <div class="w-full  rotate-[135deg] scale-50 duration-500 group">
+                <figure class="w-full h-[200px] md:h-[400px] lg:h-[500px]  rounded-md overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/b1.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">The Power of Music</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Jason Williams</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 6 . 4 mins
+                    read</span>
+            </div>
+            <div class="w-full translate-y-[200px] rotate-[-135deg] scale-50 duration-500 mt-28 group">
+                <figure class="w-full rounded-md h-[200px] md:h-[400px] lg:h-[500px]  overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/b2.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">The 5G Technology</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Marcus King</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 17 . 3 mins
+                    read</span>
+            </div>
+            <div class="w-full translate-y-[200px] rotate-[135deg] scale-50 duration-500 mt-28 group">
+                <figure class="w-full h-[200px] md:h-[400px] lg:h-[500px]  rounded-md overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/b3.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">The Digital Age</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Emily Davis</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 6 . 6 mins
+                    read</span>
+            </div>
+            <div class="w-full translate-y-[200px] rotate-[-135deg] scale-50 duration-500 mt-28 group">
+                <figure class="w-full rounded-md h-[200px] md:h-[400px] lg:h-[500px]  overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/b4.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">Mastering Productivity</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Marcus King</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 17 . 5 mins
+                    read</span>
+            </div>
+            <div class="w-full translate-y-[200px] rotate-[135deg] scale-50 duration-500 mt-28 group">
+                <figure class="w-full rounded-md h-[200px] md:h-[400px] lg:h-[500px]  overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/b5.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">A Journey Through Time</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Jason Williams</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 6 . 7 mins
+                    read</span>
+            </div>
+        </div>
+    </section>
+    <!-- end sect /// -->
+    <section id="sect4" class="w-full bg-[#171717] mt-20 translate-y-[100vh] duration-1000">
+        <div class="w-full flex flex-wrap mx-auto 2xl:container">
+            <div class="w-full flex justify-center">
+                <h2 class="text-white text-5xl lg:text-7xl ">
+                    Featured Posts
+                </h2>
+
+            </div>
+            <div class="w-full flex justify-center mt-8 md:px-12 lg:pe-[40%] lg:mt-20">
+                <p class="text-white text-3xl text-center lg:text-6xl ">
+                    Dive into a curated selection of articles crafted to inform, inspire, and engage.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end sect /// -->
+    <section id="sect5" class="w-full bg-[#171717] mt-32 duration-1000 overflow-hidden">
+        <div class="w-full mx-auto 2xl:container *:px-6 *:md:px-12 lg:px-20  *:scale-50 *:opacity-0 *:overflow-hidden *:cursor-pointer">
+            <div class="w-full h-auto  duration-500 group">
+                <figure class="w-full h-[200px] md:h-[400px] lg:h-[500px]  rounded-md overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/c1.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">The Cultural Fusion</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Jason Williams</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 6 . 9 mins
+                    read</span>
+            </div>
+            <div class="w-full   duration-500 mt-28 group">
+                <figure class="w-full rounded-md h-[200px] md:h-[400px] lg:h-[500px]  overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/c2.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center mt-8 text-2xl md:text-5xl">Fragile Balance of Nature
+                </h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Marcus King</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 17 . 3 mins
+                    read</span>
+            </div>
+            <div class="w-full   duration-500 mt-28 group">
+                <figure class="w-full h-[200px] md:h-[400px] lg:h-[500px]  rounded-md overflow-hidden ">
+                    <img class="w-full h-full object-cover group-hover:scale-110 duration-500" src="images/c3.jpg"
+                        alt="">
+                </figure>
+                <h3 class="text-white flex w-full justify-center text-center mt-8 text-2xl md:text-5xl">World of
+                    Bioluminescence</h3>
+                <h4 class="text-white flex w-full justify-center mt-2 md:mt-6 md:text-xl">Emily Davis</h4>
+                <span class="text-[#949494] flex w-full justify-center mt-2 md:mt-6 md:text-xl">May 6 . 6 mins
+                    read</span>
+            </div>
+
+        </div>
+    </section>
+    <!-- end sect /// -->
+    <section id="sect6" class="w-full bg-[#171717] mt-20 translate-y-[100vh] duration-1000">
+        <div class="w-full flex flex-wrap mx-auto 2xl:container">
+            <div class="w-full flex justify-center">
+                <h2 class="text-white text-5xl lg:text-7xl text-center">
+                    Trending Categories
+                </h2>
+
+            </div>
+            <div class="w-full flex justify-center mt-8 md:px-12 lg:pe-[40%] lg:mt-20">
+                <p class="text-white text-3xl text-center lg:text-6xl ">
+                    A deep spectrum of diverse landscapes to explore & expand your horizons.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end sect /// -->
+    <section id="sect7" class="w-full bg-[#171717] mt-7 py-36  duration-1000 overflow-hidden">
+        <div class="w-full flex flex-wrap mx-auto 2xl:container px-6 *:flex *:flex-wrap *:group *:translate-y-[100vh] *:duration-1000 *:cursor-pointer">
+            <div class="w-full relative border-b-2 border-white py-8 group md:py-12 *:duration-500 *:hover:text-[#ababab]">
+                <h4 class="text-white uppercase text-center text-3xl md:text-5xl w-full flex justify-center items-center  md:w-1/2">
+                    Technology</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="white"
+                    class="size-12 mt-4 scale-150 text-center w-full md:w-1/2 items-center flex justify-center">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <figure
+                    class="hidden duration-500  md:flex opacity-0 rotate-45 w-72 rounded-lg overflow-hidden absolute top-[30%] right-[2%] group-hover:opacity-100 h-44">
+                    <img src="images/q1.jpg" class="w-full h-full object-cover" alt="">
+                </figure>
+            </div>
+            <div class="w-full relative border-b-2 group border-white py-8 md:py-12 *:duration-500 *:hover:text-[#ababab]">
+                <h4 class="text-white uppercase text-center text-3xl md:text-5xl w-full flex justify-center items-center  md:w-1/2">
+                    Culture</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="white"
+                    class="size-12 mt-4 scale-150 text-center w-full md:w-1/2 items-center flex justify-center">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <figure
+                    class="hidden duration-500  md:flex opacity-0 rotate-45 w-72 rounded-lg overflow-hidden absolute top-[30%] right-[2%] group-hover:opacity-100 h-44">
+                    <img src="images/q2.jpg" class="w-full h-full object-cover" alt="">
+                </figure>
+            </div>
+            <div class="w-full relative border-b-2 group border-white py-8 md:py-12 *:duration-500 *:hover:text-[#ababab]">
+                <h4 class="text-white uppercase text-center text-3xl md:text-5xl w-full flex justify-center  items-center md:w-1/2">nature
+                    </h4>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="white"
+                    class="size-12 mt-4 scale-150 text-center w-full  md:w-1/2 items-centerflex justify-center">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                <figure
+                    class="hidden duration-500 ease-out md:flex opacity-0 rotate-45 w-72 rounded-lg overflow-hidden absolute top-[30%] right-[2%] group-hover:opacity-100 h-44">
+                    <img src="images/q3.jpg" class="w-full h-full object-cover" alt="">
+                </figure>
+            </div>
+
+        </div>
+    </section>
+    <!-- end sect /// -->
+     <section id="sect8" class="w-full bg-[#171717] translate-y-[60vh] duration-500">
+        <div class="w-full flex h-auto flex-wrap mx-auto 2xl:container px-6 md:px-[10%] justify-center ">
+            <div class="bg-[#292929] items-center content-center h-[400px] rounded-t-lg rounded-r-lg lg:rounded-r-none lg:rounded-s-lg rounded-b-none roun py-6 w-full lg:w-1/2 mx-auto">
+                <h4 class="text-white text-center w-full justify-center text-3xl md:text-5xl flex px-[20%]">Don't Miss A Beat</h4>
+                <p class="text-[#b5b5b5] w-full text-center md:text-lg flex justify-center px-[10%] mt-3">Subscribe to our newsletter consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <div class="mt-8 rounded-lg w-[70%] mx-auto bg-[#171717] pb-3 md:pb-0 flex flex-wrap md:pe-6">
+                    <input class="w-full md:w-[80%] p-3 text-[#b5b5b5] py-6  rounded-lg bg-[#171717] ps-3" type="email" placeholder="Enter your email">
+                   <div class="w-full flex md:w-[20%] items-center justify-center">
+                    <span class=" rounded-md py-3 px-6 h-fit   bg-[#292929] hover:bg-[#171717] cursor-pointer duration-500 w-fit flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                      </span>
+                   </div>
+                </div>
+            </div>
+            <figure class="w-full lg:w-1/2 rounded-l-lg rounded-t-none  rounded-b-lg lg:rounded-e-lg lg:rounded-l-none  overflow-hidden">
+                <img class="w-full  object-cover h-[400px]" src="images/earth.jpg" alt="">
+            </figure>
+        </div>
+     </section>
+     <!-- end sect/// -->
+     <section class="w-full bg-[#171717] px-3  my-[5vh]">
+        <div class="2xl:container mx-auto w-full flex py-8 h-24">
+            <div class="w-[60%] h-full flex justify-center items-center ">
+                <h1 class="text-white text-[22px] md:text-[36px]">Ermia Razavi</h1>
+            </div>
+            <nav class="h-full w-[40%] ">
+                <ul class="w-full h-full flex flex-wrap justify-center items-center  lg:gap-2 gap-1 content-center">
+                    <li class=" lg:flex h-8 w-h-8"><a
+                            class="group flex justify-center items-center w-full h-full  rounded-md  border border-[#212121]"
+                            href="https://www.linkedin.com/in/ermia-razavi-a611312a3/"><i
+                                class="text-lg flex justify-center items-center w-full h-full icon-linkedin text-white p-[2px] duration-500 group-hover:bg-[#212121] group-hover:text-[#f2f2eb]"></i></a>
+                    </li>
+                    <li class=" lg:flex h-8 w-h-8"><a
+                            class="group flex justify-center items-center w-full h-full  rounded-md  border border-[#212121]"
+                            href="https://github.com/ErmiaRZV"><i
+                                class="text-lg flex justify-center items-center w-full h-full icon-github-circled text-white p-[2px] duration-500 group-hover:bg-[#212121] group-hover:text-[#f2f2eb]"></i></a>
+                    </li>
+                    <li class=" lg:flex h-8 w-h-8"><a
+                            class="group flex justify-center items-center w-full h-full  rounded-md  border border-[#212121]"
+                            href="https://www.instagram.com/ermia_razavi.dev/?utm_source=ig_web_button_share_sheet"><i
+                                class="text-lg flex justify-center items-center w-full h-full icon-instagram text-white p-[2px] duration-500 group-hover:bg-[#212121] group-hover:text-[#f2f2eb]"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- end sect/// -->
+    <section class="   lg:flex w-[140px] h-[130px] hidden  fixed bottom-[50px] right-[10px] bg-transparent  group">
+        <figure
+            class="flex  justify-center items-center z-20 w-[100px] h-[100px] bg-[#212121] fixed bottom-[50px] right-[10px] animate-anime4 ">
+            <img class="absolute top-[5px] left-[5px] z-30 flex w-[90px] h-[90px] animate-anime5" src="images/profile.jpg"
+                alt="">
+            <a class="h-[30px] w-[30px] bg-[#212121] hover:bg-[#080808] duration-[.6s] absolute top-[40px] left-[40px] group-hover:translate-x-[-60px] group-hover:translate-y-[-60px] rounded-[50%]"
+                target="_blank" href="https://www.linkedin.com/in/ermia-razavi-a611312a3/"><i
+                    class="text-[#f2f2eb] w-full h-full icon-linkedin flex justify-center items-center"></i></a>
+            <a class="h-[30px] w-[30px] bg-[#212121] hover:bg-[#080808] duration-[.6s] absolute top-[40px] left-[40px] group-hover:translate-x-[-85px] group-hover:translate-y-[-25px] rounded-[50%]"
+                target="_blank" href="https://github.com/ErmiaRZV"><i
+                    class="text-[#f2f2eb] w-full h-full icon-github-circled  flex justify-center items-center"></i></a>
+            <a class="h-[30px] w-[30px] bg-[#212121] hover:bg-[#080808] duration-[.6s] absolute top-[40px] left-[40px] group-hover:translate-x-[-75px] group-hover:translate-y-[20px] rounded-[50%]"
+                target="_blank"
+                href="https://www.instagram.com/ermia_razavi.dev/?utm_source=ig_web_button_share_sheet"><i
+                    class="text-[#f2f2eb] w-full h-full icon-instagram flex justify-center items-center"></i></a>
+        </figure>
+    </section>
+</body>
+<script src="js/main.js"></script>
+
+</html>

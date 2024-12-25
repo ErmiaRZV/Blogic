@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.show{
+    opacity: 1;
+}
+.scale{
+    transform: scale(1);
+}
+.translate{
+    transform: translateY(0);
+}
+.sect3{
+    transform: rotate(0) translateY(0) scale(1);
+    
+}
+.sect5{
+    transform:  scale(1);
+    
+}
+.sect52{
+    opacity: 1;
+}
+.sect7{
+    transform: translateX(-50%) rotate(45deg);
+}
+.bg{
+    background-color: black !important;
+}
